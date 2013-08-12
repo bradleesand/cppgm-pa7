@@ -7,10 +7,10 @@ namespace A
 
 inline namespace B
 {
-
+	inline namespace {}
 }
 
-inline namespace
+namespace
 {
 
 }

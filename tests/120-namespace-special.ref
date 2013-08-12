@@ -9,9 +9,9 @@ end namespace
 end namespace
 start namespace B
 inline namespace
-end namespace
 start unnamed namespace
 inline namespace
+end namespace
 end namespace
 end namespace
 end translation unit

@@ -51,9 +51,7 @@ empty-declaration:
 decl-specifier:
 	storage-class-specifier
 	type-specifier
-	function-specifier
 	KW_TYPEDEF
-	KW_CONSTEXPR
 
 decl-specifier-seq:
 	decl-specifier+
@@ -62,9 +60,6 @@ storage-class-specifier:
 	KW_STATIC
 	KW_THREAD_LOCAL
 	KW_EXTERN
-
-function-specifier:
-	KW_INLINE
 
 type-specifier:
 	simple-type-specifier

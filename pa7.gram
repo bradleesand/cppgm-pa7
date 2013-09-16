@@ -30,6 +30,9 @@ nested-name-specifier-root:
 nested-name-specifier-suffix:
 	TT_IDENTIFIER OP_COLON2
 
+constant-expression:
+	TT_LITERAL
+
 declaration:
 	namespace-definition
 	simple-declaration
@@ -114,9 +117,6 @@ ptr-declarator:
 noptr-declarator-root:
 	id-expression
 	OP_LPAREN ptr-declarator OP_RPAREN
-
-constant-expression:
-	TT_LITERAL
 
 noptr-declarator-suffix:
 	parameters-and-qualifiers

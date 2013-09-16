@@ -13,6 +13,6 @@ namespace X
 	using A::T;
 }
 
-X::CT ci;
+X::CT* ci;
 X::T i;
 

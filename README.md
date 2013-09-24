@@ -87,6 +87,10 @@ Following shall be descriptions of member variables, functions and namespaces - 
 
 Each of the three lists of entities shall be ordered in order of first declaration within the translation unit.
 
+Finally, each namespace description shall be terminated with:
+
+    end namespace
+
 #### Variable Description
 
 Each declared variable (whether or not defined) shall be described on one line as follows:
